@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Регистрация</h1>
+    <form id="registerForm">
+        <input type="text" id="login" placeholder="Введите логин" required />
+        <input type="password" id="password" placeholder="Введите пароль" required />
+        <input type="password" id="confirmPassword" placeholder="Повторите пароль" required />
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+    <button onclick="window.location.href='login.html'" class="secondary">Уже есть аккаунт? Войти</button>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
